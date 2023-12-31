@@ -1,3 +1,3 @@
 # happy-new-year
 
-A small website made with ❤️ by Dipanshu
+A small gesture made with ❤️ by Dipanshu
