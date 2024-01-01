@@ -63,9 +63,8 @@ function unlockContent() {
 
 function checkNewYear() {
     const currentTime = new Date();
-    const newYearDate = new Date(currentTime.getFullYear() + 1, 0, 1); // January 1st of the next year
+    const newYearDate = new Date(2024, 0, 1); // January 1st, 2024
     const timeLeft = newYearDate - currentTime;
-    // console.log(Math.abs(timeLeft / (1000 * 60 * 60)));
 
     if (timeLeft <= 0) {
         unlockContent();
